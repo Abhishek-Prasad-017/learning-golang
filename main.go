@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
+	u "github.com/learning-golang/programs"
 )
 
-// main function prints hello!
+// main function is used to call the functions in the programs folder
 func main() {
-	fmt.Printf("%+v\n", "Hello Abhishek!")
+	u.PrintCommandLineArgs()
 }
